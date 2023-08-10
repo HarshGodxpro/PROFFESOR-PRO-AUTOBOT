@@ -48,10 +48,10 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Rajappan")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
-IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'False')), False)
+IS_VERIFY = is_enabled((environ.get('IS_VERIFY', 'True')), False)
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/Update_Proffsor_Bot/11")
-VERIFY2_URL = environ.get('VERIFY2_URL', "")
-VERIFY2_API = environ.get('VERIFY2_API', "")
+VERIFY2_URL = environ.get('VERIFY2_URL', "v2.kpslink.in")
+VERIFY2_API = environ.get('VERIFY2_API', "4594f64382e832d6e523571792257ea43aeeb063")
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'v2.kpslink.in')
 SHORTLINK_API = environ.get('SHORTLINK_API', '4594f64382e832d6e523571792257ea43aeeb063')
 IS_SHORTLINK = is_enabled((environ.get('IS_SHORTLINK', 'False')), False)
